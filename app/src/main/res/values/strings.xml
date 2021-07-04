@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">lungapp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="add_image">Add Image</string>
+    <string name="report">Report</string>
+    <string name="team_members">Team Members</string>
+    <string name="about_us">About Us</string>
+    <string name="terms">Terms</string>
+    <string name="covid_tracker">COVID Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

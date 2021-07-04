@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gadgetguys.lungapp.ui.home.HomeFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.gadgetguys.lungapp.ui.gallery.GalleryFragment"
+        android:label="@string/add_image"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.gadgetguys.lungapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/report"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_team"
+        android:name="com.gadgetguys.lungapp.Fragment.TeamMembers"
+        android:label="Team Members"
+        tools:layout="@layout/fragment_team_members" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.gadgetguys.lungapp.Fragment.AboutUs"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="com.gadgetguys.lungapp.Fragment.Terms"
+        android:label="Terms"
+        tools:layout="@layout/fragment_terms" />
+</navigation>

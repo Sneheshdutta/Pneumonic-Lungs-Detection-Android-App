@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="@string/dashboard"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_add_a_photo_24"
+            android:title="@string/add_image"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_insert_drive_file_24"
+            android:title="@string/report" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_baseline_people_alt_24"
+            android:title="@string/team_members" />
+        <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_baseline_sentiment_satisfied_alt_24"
+        android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_baseline_content_paste_24"
+            android:title="@string/terms" />
+    </group>
+    <item android:title="Future Updates">
+        <menu>
+            <item
+                android:id="@+id/updates"
+                android:icon="@drawable/ic_baseline_clean_hands_24"
+                android:title="@string/covid_tracker" />
+        </menu>
+    </item>
+
+
+</menu>
+

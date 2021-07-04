@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dashboard">Dashboard</string>
+    <string name="add_image">Add Image</string>
+    <string name="report">Report</string>
+    <string name="team_members">Team Members</string>
+    <string name="about_us">About Us</string>
+    <string name="terms">Terms</string>
+    <string name="covid_tracker">COVID Tracker</string>
+</resources>
